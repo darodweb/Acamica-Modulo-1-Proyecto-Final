@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+
+    $primary-color: #0000FF;
+    $secondary-color: #00F3BB;
+    $text-color: #060A24;
+    $primary-font: 'IBM Plex Sans', sans-serif;
+    $secondary-text: 'IBM Plex Mono', monospace, sans-serif;
+    $button-text: 'IBM Plex Mono', monospace, sans-serif;
+
+
+.standard-title {
+        font-family: $primary-font;
+        font-size: 36px;
+        color: $text-color;
+        line-height: 42px;
+        font-weight: 400;
+        margin-bottom: 14px;
+      }

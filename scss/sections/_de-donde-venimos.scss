@@ -1,0 +1,91 @@
+ /*Section De Donde Venimos*/
+
+ .de-donde-venimos-container {
+    @media screen and (min-width: 669px){
+    display:flex;
+    flex-flow: row wrap;
+    }
+    & img {
+        width: 469px;
+        height: auto;
+    }
+    
+}
+
+ .de-donde-venimos {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.de-donde-venimos__title {
+    font-size: 36px;
+    margin: 27px 16px 8px 16px;
+    line-height: 42px;
+    @media screen and (min-width:669px) {
+    font-family: $primary-font;
+    font-size: 48px;
+    color: $text-color;
+    line-height: 42px;
+    font-weight: 400;
+    }
+}
+
+.de-donde-venimos-content-sm {
+  display:block;
+  @media screen and (min-width:668px) {
+    display:none;
+  }
+}
+
+.de-donde-venimos-content {
+  @media screen and (min-width: 669px) {
+      width: 464px;
+  }
+}
+
+.de-donde-venimos__description{
+  font-family: $secondary-text;
+  font-size: 14px;
+  color: $text-color;
+  line-height: 22px;
+  margin: 8px 16px 0 16px;
+  text-align: left;
+  @media screen and (min-width:669px) {
+    font-size: 16px;
+    margin-top: 0.6%;
+    line-height: 24px;
+  }
+}
+
+.de-donde-venimos__description2{
+  font-family: $secondary-text;
+  font-size: 14px;
+  color: $text-color;
+  letter-spacing: 0;
+  line-height: 22px;
+  margin: 16px 16px 0 16px;
+  margin-bottom: 54px;
+  text-align: left;
+  @media screen and (min-width:669px) {
+    font-size: 16px;
+    margin-top: 0.6%;
+    line-height: 24px;
+  }
+} 
+
+/*Container for large screens*/
+.de-donde-venimos-container1 {
+ display: none;
+ @media screen and (min-width: 669px) {
+  display: flex; 
+  flex-flow: row nowrap;
+  }
+}
+
+
+.de-donde-venimos-container1 img {
+  max-width: 320px;
+  height: auto;
+  margin: 0 auto;
+}
+

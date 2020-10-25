@@ -1,0 +1,32 @@
+.invitados-estelares__title {
+        font-size: 36px;
+        line-height: 42;
+        font-family: $primary-font;
+        color: $text-color;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+        margin-left: 1rem;
+        margin-bottom: 14px;
+        @media screen and (min-width: 669px) {
+            margin-left: 200px;
+            font-size: 48px;
+            margin-bottom: 36px;
+        }
+    }
+
+.invitados-estelares-container {
+    max-width: 100%;
+    @media screen and (min-width: 669px) {
+    display: flex;
+    flex-flow: row wrap;
+    & img {
+        max-width: 480px;
+        height: 364px;
+        }
+    }
+
+    & img {
+        width:100%;
+    }
+}

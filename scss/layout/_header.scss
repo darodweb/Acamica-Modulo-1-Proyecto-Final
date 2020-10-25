@@ -1,0 +1,36 @@
+
+
+.main-header__logo {
+    margin: 10px 16px;
+    @media screen and (min-width: 669px) {
+        margin: 36px 22px 22px 100px;
+        width: 36px;
+        height: 36px;
+    }
+}
+ 
+.main-header__nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+    flex-direction: row;
+    margin-left: 16px;
+    @media screen and (min-width:668px) {
+        margin-right: 100px;
+        margin-top: 26px;
+    }
+}
+
+li {
+    list-style: none;
+    @media screen and (min-width: 668px) {
+        margin-left: 48px;
+    }
+}
+
+.main-header {
+    @media screen and (min-width: 668px) {
+        display:flex;
+        justify-content: space-between;
+    }
+}
