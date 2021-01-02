@@ -208,9 +208,7 @@ footer .icons {
 }
 
 footer .icons i {
-  margin-top: 36px;
-  margin-bottom: 31px;
-  margin-left: 36px;
+  margin: 36px 0px 31px 36px;
 }
 
 .fab {
@@ -548,7 +546,6 @@ a:active {
     display: flex;
     width: 457.6px;
     height: 660px;
-    margin-left: 200px;
     margin-left: 100px;
     margin-top: -125px;
     position: relative;
@@ -566,7 +563,6 @@ a:active {
   }
 }
 
-/*Section De Donde Venimos*/
 @media screen and (min-width: 669px) {
   .de-donde-venimos-container {
     display: -webkit-box;
@@ -756,10 +752,8 @@ a:active {
 
 @media screen and (min-width: 669px) {
   .nuestros-temas__title {
-    margin-left: 200px;
+    margin: 64px 0 36px 200px;
     font-size: 48px;
-    margin-bottom: 36px;
-    margin-top: 64px;
   }
 }
 
@@ -815,7 +809,6 @@ a:active {
   margin-top: 13px;
 }
 
-/*Novedades*/
 .novedades {
   display: -webkit-box;
   display: -ms-flexbox;
