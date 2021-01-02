@@ -19,6 +19,7 @@
     max-width: 100%;
     @media screen and (min-width: 669px) {
     display: flex;
+    justify-content: center;
     flex-flow: row wrap;
     & img {
         max-width: 480px;

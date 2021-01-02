@@ -12,6 +12,7 @@
 
 <body>
 
+
     <div class="page-container">
         <header class="main-header">
 
@@ -29,10 +30,10 @@
                         <div>
                             <div>
                                 <ul class="main-header__nav-links">
-                                    <li><a href="#">EPISODIOS</a></li>
-                                    <li><a href="#">NOSOTROS</a></li>
-                                    <li><a href="#">ENTREVISTAS</a></li>
-                                    <li><a href="#">TÓPICOS</a></li>
+                                    <li><a href="#episodios">EPISODIOS</a></li>
+                                    <li><a href="#de-donde-venimos">NOSOTROS</a></li>
+                                    <li><a href="#invitados-estelares">ENTREVISTAS</a></li>
+                                    <li><a href="#nuestros-temas">TÓPICOS</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -45,7 +46,8 @@
         <section class="hero">
 
             <h1 class="hero-main-text">Hello <span>world</span> Pale blue dot<span>.</span></h1>
-            <p class="hero-main-text__secondary">Un pocast que explora el mundo de la programación. Nuevos episodios,
+            <p class="hero-main-text__secondary">Un pocast que explora el mundo de la programación. Nuevos
+                episodios,
                 todos los jueves cada 15 dias.
             </p>
             <a href="#nosotros" class="hero-button">Conoce Más</a>
@@ -53,43 +55,46 @@
 
         <main>
             <section class="episodios">
-                <div class="episodios-title">Episodios</div>
+                <h2 class="episodios-title" id="episodios">Episodios</h2>
                 <div class="episodios-podcast-wrapper">
                     <div class="episodios-podcast">
-                        <iframe src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN" width="100%"
-                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-                        <!--For large screens-->
-                        <iframe class="episodios-podcast-lg"
+                        <iframe class="episodios-podcast_iframe"
                             src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN" width="100%"
-                            height="584" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="episodios-podcast">
-                        <iframe src="https://open.spotify.com/embed-podcast/show/5uRPZ5r7bRkW29c5AkppXq" width="100%"
-                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            height="300" allow="encrypted-media"></iframe>
 
                         <!--For large screens-->
-                        <iframe class="episodios-podcast-lg"
+                        <iframe class="episodios-podcast-lg episodios-podcast_iframe"
+                            src="https://open.spotify.com/embed-podcast/show/0iW21xFsrH509BGTEs3ufN" width="100%"
+                            height="584" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="episodios-podcast">
+                        <iframe class="episodios-podcast_iframe"
                             src="https://open.spotify.com/embed-podcast/show/5uRPZ5r7bRkW29c5AkppXq" width="100%"
-                            height="584" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            height="300" allow="encrypted-media"></iframe>
+
+                        <!--For large screens-->
+                        <iframe class="episodios-podcast-lg episodios-podcast_iframe"
+                            src="https://open.spotify.com/embed-podcast/show/5uRPZ5r7bRkW29c5AkppXq" width="100%"
+                            height="584" allow="encrypted-media"></iframe>
                     </div>
                     <div class="episodios-podcast">
-                        <iframe src="https://open.spotify.com/embed-podcast/show/7CpuEnbCLIXwI6LEcbBOYP" width="100%"
-                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
-                        <!--For large screens-->
-                        <iframe class="episodios-podcast-lg"
+                        <iframe class="episodios-podcast_iframe"
                             src="https://open.spotify.com/embed-podcast/show/7CpuEnbCLIXwI6LEcbBOYP" width="100%"
-                            height="584" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="episodios-podcast"><iframe
-                            src="https://open.spotify.com/embed-podcast/show/54Lw9cfbfIPLQvc7ANmMmL" width="100%"
-                            height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            height="300" allow="encrypted-media"></iframe>
 
                         <!--For large screens-->
-                        <iframe class="episodios-podcast-lg"
+                        <iframe class="episodios-podcast-lg episodios-podcast_iframe"
+                            src="https://open.spotify.com/embed-podcast/show/7CpuEnbCLIXwI6LEcbBOYP" width="100%"
+                            height="584" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="episodios-podcast"><iframe class="episodios-podcast_iframe"
                             src="https://open.spotify.com/embed-podcast/show/54Lw9cfbfIPLQvc7ANmMmL" width="100%"
-                            height="584" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                            height="300" allow="encrypted-media"></iframe>
+
+                        <!--For large screens-->
+                        <iframe class="episodios-podcast-lg episodios-podcast_iframe"
+                            src="https://open.spotify.com/embed-podcast/show/54Lw9cfbfIPLQvc7ANmMmL" width="100%"
+                            height="584" allow="encrypted-media"></iframe>
                     </div>
                 </div>
             </section>
@@ -99,81 +104,90 @@
             </div>
             <div class="de-donde-venimos-content-sm">
                 <h2 class="de-donde-venimos__title">De Dónde Venimos</h2>
-                <p class="de-donde-venimos__description">Our posturings, our imagined self-importance, the delusion that
-                    we have some privileged position in the Universe, are challenged by this point of pale light.</p>
-                <p class="de-donde-venimos__description2">Our planet is a lonely speck in the great enveloping cosmic
-                    dark. In our obscurity, in all this vastness, there is no hint that help will come from elsewhere to
+                <p class="de-donde-venimos__description">Our posturings, our imagined self-importance, the delusion
+                    that
+                    we have some privileged position in the Universe, are challenged by this point of pale light.
+                </p>
+                <p class="de-donde-venimos__description2">Our planet is a lonely speck in the great enveloping
+                    cosmic
+                    dark. In our obscurity, in all this vastness, there is no hint that help will come from
+                    elsewhere to
                     save us from ourselves.</p>
             </div>
             <!--End-->
+
+
+            <section class="de-donde-venimos" id="de-donde-venimos">
+                <!--Mobile phone image For Large screens-->
+                <div class="de-donde-venimos-container1">
+                    <div class="mobile-phone-lg">
+                        <img src="./images/phone.png" class="mobile-phone__img" alt="Mobile Phone">
+                    </div>
+                    <!--End-->
+                    <div class="de-donde-venimos-content">
+                        <h2 class="de-donde-venimos__title">De Dónde Venimos</h2>
+                        <p class="de-donde-venimos__description">Our posturings, our imagined self-importance, the
+                            delusion
+                            that
+                            we have some privileged position in the Universe, are challenged by this point of pale
+                            light.
+                        </p>
+                        <br>
+                        <p class="de-donde-venimos__description2">Our planet is a lonely speck in the great enveloping
+                            cosmic
+                            dark. In our obscurity, in all this vastness, there is no hint that help will come from
+                            elsewhere to
+                            save us from ourselves.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="invitados-estelares">
+                <h2 class="invitados-estelares__title" id="invitados-estelares">Invitada/os estelares</h2>
+                <div class="invitados-estelares-container">
+                    <img src="./images/grace-hopper.png" alt="Photo of Grace Hopper">
+                    <img src="./images/Katie-Bouman.png" alt="Photo of Katie Bouman">
+                    <img src="./images/Margaret_Hamilton.png" alt="Photo of Margaret Hamilton">
+                    <img src="./images/An_E.R.A.Univac_1103_computer_in_the_1950s.png" alt="Photo of an E.R. Computer">
+                    <img src="./images/Computer_operators_with_an_Eniac_the_world_first_programmable_general-purpose_computer.png"
+                        alt="Computer operators with an eniac">
+                    <img src="./images/susan-kare.png" alt="Photo of Susan Kare">
+                </div>
+            </section>
+
+
+            <section class="nuestros-temas">
+                <h2 class="nuestros-temas__title" id="nuestros-temas">Algunos de nuestros temas</h2>
+
+                <div class="nuestros-temas-main-container">
+                    <div class="nuestros-temas-container">
+                        <img src="./images/icon1.svg" alt="Computer icon">
+                        <h3>Trabajo Remoto</h3>
+                    </div>
+
+                    <div class="nuestros-temas-container">
+                        <img src="./images/icon2.svg" alt="Mind icon">
+                        <h3>Repensando la programación</h3>
+                    </div>
+
+                    <div class="nuestros-temas-container">
+                        <img src="./images/icon3.svg" alt="Computer icon">
+                        <h3>Bases del código</h3>
+                    </div>
+
+                    <div class="nuestros-temas-container">
+                        <img src="./images/icon4.svg" alt="CPU">
+                        <h3>Seguridad informática</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="novedades">
+                <div class="novedades-container">
+                    <h2>¿Querés las ultimas novedades?</h2>
+                    <a href="#" class="novedades__btn">Escucha los episodios</a>
+                </div>
+            </section>
         </main>
-
-        <section class="de-donde-venimos">
-            <!--Mobile phone image For Large screens-->
-            <div class="de-donde-venimos-container1">
-                <div class="mobile-phone-lg">
-                    <img src="./images/phone.png" class="mobile-phone__img" alt="Mobile Phone">
-                </div>
-                <!--End-->
-                <div class="de-donde-venimos-content">
-                    <h2 class="de-donde-venimos__title">De Dónde Venimos</h2>
-                    <p class="de-donde-venimos__description">Our posturings, our imagined self-importance, the delusion
-                        that
-                        we have some privileged position in the Universe, are challenged by this point of pale light.
-                    </p>
-                    <br>
-                    <p class="de-donde-venimos__description2">Our planet is a lonely speck in the great enveloping
-                        cosmic
-                        dark. In our obscurity, in all this vastness, there is no hint that help will come from
-                        elsewhere to
-                        save us from ourselves.</p>
-                </div>
-            </div>
-        </section>
-        <section class="invitados-estelares">
-            <h2 class="invitados-estelares__title ">Invitada/os estelares</h2>
-            <div class="invitados-estelares-container">
-                <img src="./images/grace-hopper.png" alt="Photo of Grace Hopper">
-                <img src="./images/Katie-Bouman.png" alt="Photo of Katie Bouman">
-                <img src="./images/Margaret_Hamilton.png" alt="Photo of Margaret Hamilton">
-                <img src="./images/An E.R.A.Univac 1103 computer in the 1950s.png" alt="Photo of an E.R. Computer">
-                <img src="./images/Computer operators with an Eniac — the world’s first programmable general-purpose computer.png"
-                    alt="Computer operators with an eniac">
-                <img src="./images/susan-kare.png" alt="Photo of Susan Kare">
-            </div>
-        </section>
-
-
-        <section class="nuestros-temas">
-            <h2 class="nuestros-temas__title">Algunos de nuestros temas</h2>
-
-            <div class="nuestros-temas-main-container">
-                <div class="nuestros-temas-container">
-                    <img src="./images/icon1.svg" alt="Computer icon">
-                    <h3>Trabajo Remoto</h3>
-                </div>
-
-                <div class="nuestros-temas-container">
-                    <img src="./images/icon2.svg" alt="Mind icon">
-                    <h3>Repensando la programación</h3>
-                </div>
-
-                <div class="nuestros-temas-container">
-                    <img src="./images/icon3.svg" alt="Computer icon">
-                    <h3>Bases del código</h3>
-                </div>
-
-                <div class="nuestros-temas-container">
-                    <img src="./images/icon4.svg" alt="CPU">
-                    <h3>Seguridad informática</h3>
-                </div>
-            </div>
-        </section>
-
-        <section class="novedades">
-            <h2>¿Querés las ultimas novedades?</h2>
-            <a href="#" class="novedades__btn">Escucha los episodios</a>
-        </section>
 
         <footer>
             <p>© 2019 — Hello blue pale dot</p>

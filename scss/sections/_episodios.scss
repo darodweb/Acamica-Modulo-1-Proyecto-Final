@@ -13,6 +13,10 @@
     }
 }
 
+.episodios-podcast_iframe {
+    border: 0;
+}
+
 .episodios-title {
     font-family: $primary-font;
     font-size: 36px;
@@ -41,7 +45,7 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 72px;
-        margin: 0 100px 0 100px;
+        margin: 0 100px;
     }
 }
 

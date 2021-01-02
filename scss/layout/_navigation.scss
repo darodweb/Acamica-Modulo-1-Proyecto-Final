@@ -163,7 +163,7 @@ a:active {
     text-decoration: line-through;
 }
 
-/*Hide the checkbox input on large screens*/
+/*Para ocultar el input en pantallas grandes*/
 .main-header-menu-wrapper .main-header__nav-toggler {
     @media screen and (min-width: 669px) {
         opacity:0;

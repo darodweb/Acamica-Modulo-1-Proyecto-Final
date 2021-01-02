@@ -2,8 +2,11 @@
 /*Novedades*/
 
 .novedades {
+    display:flex;
+    align-content: center;
+    flex-direction: column;
     background-color: $primary-color;
-    height: 341px;
+    height: 518px;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     clip-path: polygon(0 3%, 100% 0, 100% 97%, 0 100% );
     @media screen and (min-width: 669px) {
@@ -14,13 +17,17 @@
     }
 }
 
+.novedades-container {
+    margin: auto;
+}
+
 .novedades h2 {
     font-family: $primary-font;
     font-size: 36px;
     color: #FFFFFF;
     letter-spacing: 0;
     text-align: center;
-    line-height: 42px;
+    line-height: 62px;
     margin-left: 16px;
     margin-right: 16px;
     @media screen and (min-width:669px) {
