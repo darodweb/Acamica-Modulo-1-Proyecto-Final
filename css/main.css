@@ -127,6 +127,23 @@ body {
 669-992px tablets
 993-1312px small screens
 1313px- large screens*/
+@media screen and (min-width: 668px) {
+  .main-header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color: white;
+    z-index: 10;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0%;
+    scroll-margin-top: 2rem;
+  }
+}
+
 .main-header__logo {
   margin: 10px 16px;
 }
@@ -168,17 +185,6 @@ li {
 @media screen and (min-width: 668px) {
   li {
     margin-left: 48px;
-  }
-}
-
-@media screen and (min-width: 668px) {
-  .main-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
   }
 }
 
