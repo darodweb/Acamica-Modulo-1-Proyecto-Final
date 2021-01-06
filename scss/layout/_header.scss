@@ -1,5 +1,15 @@
 
-
+.main-header {
+    @media screen and (min-width: 668px) {
+        display:flex;
+        justify-content: space-between;
+        background-color: white;
+        z-index: 10;
+        position: sticky;
+        top: 0%;
+        scroll-margin-top: 2rem; 
+    }
+}
 .main-header__logo {
     margin: 10px 16px;
     @media screen and (min-width: 669px) {
@@ -28,9 +38,3 @@ li {
     }
 }
 
-.main-header {
-    @media screen and (min-width: 668px) {
-        display:flex;
-        justify-content: space-between;
-    }
-}
