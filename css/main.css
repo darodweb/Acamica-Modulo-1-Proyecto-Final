@@ -521,6 +521,10 @@ a:active {
   }
 }
 
+iframe {
+  width: 100%;
+}
+
 @media screen and (min-width: 669px) {
   iframe {
     width: 584px;
